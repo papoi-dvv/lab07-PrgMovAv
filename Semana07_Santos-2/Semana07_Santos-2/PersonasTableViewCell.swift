@@ -8,6 +8,9 @@
 import UIKit
 
 class PersonasTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var PersonaImagen:UIImageView!
+    @IBOutlet weak var PersonaNombre:UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
